@@ -13,7 +13,7 @@ import './styles/layout.css'
 import './styles/components.css'
 import './styles/animations.css'
 
-startApp(store) // listen for sign-in and load the user's data
+startApp(store) // listen for sign-in and load the users data
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
